@@ -33,7 +33,7 @@ Project is created with:
 ![SQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
 	
 ### Tools 
-Tools I've used within this project:
+Tools used within this project:
 #### Server 🗄️
 ![LAMP](https://img.shields.io/badge/LAMPP_V8-orange?style=for-the-badge&logo=xampp&logoColor=00000F)
 #### Text Editor 🖊️
@@ -42,3 +42,90 @@ Tools I've used within this project:
 ![Deb](https://img.shields.io/badge/Debian_(Buster)-00000F?style=for-the-badge&logo=debian&logoColor=deeppink)
 #### Preferred Browser 🌐
 ![Firefox](https://img.shields.io/badge/Firefox-E34F26?style=for-the-badge&logo=firefox&logoColor=white)
+
+### Project Setup 
+
+#### Installing LAMPP on Linux 
+```
+wget https://www.apachefriends.org/xampp-files/8.0.10/xampp-linux-x64-8.0.10-0-installer.run
+chmod +x xampp-linux-x64-8.0.10-0-installer.run
+sudo ./xampp-linux-x64-8.0.10-0-installer.run
+```
+
+#### VS Codium installation on Linux (Debian based distributions):
+```
+***** Add the GPG key of the repository *****
+wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg | gpg --dearmor | sudo dd of=/etc/apt/trusted.gpg.d/vscodium.gpg
+
+***** Add the repository *****
+echo 'deb https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/debs/ vscodium main' | sudo tee --append /etc/apt/sources.list.d/vscodium.list
+
+***** Update then install vscodium ***** 
+sudo apt update && sudo apt install codium
+```
+
+### Other Configurations
+
+- Open /opt/lampp/etc/httpd.conf change to desired directory
+#### Changing Document Root and Directory
+```
+# old line: DocumentRoot "/opt/lampp/htdocs"
+DocumentRoot "/home/id10t/Documents/short.me"
+#...etc...
+
+# old line: <Directory "/opt/lampp/htdocs">
+<Directory "/home/3ncrypt3db0t/Documents/short.me">
+#
+# Possible values for the Options directive are "None", "All",
+# or any combination of:
+#   Indexes Includes FollowSymLinks SymLinksifOwnerMatch ExecCGI MultiViews
+# etc...
+```
+
+#### Changing Port Number 
+```
+#
+# Listen: Allows you to bind Apache to specific IP addresses and/or
+# ports, instead of the default. See also the <VirtualHost>
+# directive.
+#
+# Change this to Listen on specific IP addresses as shown below to 
+# prevent Apache from glomming onto all bound IP addresses.
+#
+#Listen 12.34.56.78:8080
+Listen 6530
+```
+
+#### Accessing Documents and Directory 
+- Open /opt/lampp/etc/httpd.conf change nobody and nogroup
+```
+<IfModule unixd_module>
+#
+# If you wish httpd to run as a different user or group, you must run
+# httpd as root initially and it will switch.  
+#
+# User/Group: The name (or #number) of the user/group to run httpd as.
+# It is usually good practice to create a dedicated user and group for
+# running httpd, as with most system services.
+#
+# Old: user daemon
+# Old: group daemon
+User nobody
+Group nogroup
+</IfModule>
+```
+>Editing the User and group access can result fault in phpmyadmin.
+
+#### Accessing files within local server 
+- set chmod to Search_this with this command
+```
+sudo chmod 777 /home/id10t/Documents/short.me
+Save the file and start xampp with this command:
+
+sudo /opt/lampp/lampp start
+Open your browser and enter this url:
+
+http://localhost:6530/
+```
+
+>Editing **httpd.conf** might not work as intended, edit the configuration files at your own risk. 
