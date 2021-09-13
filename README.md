@@ -18,8 +18,8 @@ This project is simple URL Shortner.
 ### Key Features
 * Links Counter 
 * Clicks Counter 
-* Edit Options (Read and Delete) 
-* URL Shortner 
+* Managebality 
+* Simple, short and clean URL 
 
 ### Built with 
 Project is created with:
@@ -129,3 +129,18 @@ http://localhost:6530/
 ```
 
 >Editing **httpd.conf** might not work as intended, edit the configuration files at your own risk. 
+
+## 🖼️ Screenshots and Visual Overview 🎥
+* Will be updated soon
+
+## ToDo 
+* Dashboard and detailed link tracking 
+* Bundles 
+* Splash and overlay pages 
+* Custom domain branding 
+* Custom brand links
+
+# LICENSE ⤵️
+>You can check out the full license [here](https://github.com/3ncrypt3db0t/short.me/blob/main/LICENSE)
+
+This project is licensed under the terms of the **MIT** license, feel free to share among others. 😄
