@@ -18,6 +18,7 @@ This project is simple URL Shortner.
 ### Key Features
 * Links Counter 
 * Clicks Counter 
+* Checking link duplication
 * Managebality 
 * Simple, short and clean URL 
 
