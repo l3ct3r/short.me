@@ -1,4 +1,5 @@
-![short me](https://user-images.githubusercontent.com/48232101/133105215-36ce5915-e726-4863-9aaf-fd4a2b033d39.gif)
+![short me](https://user-images.githubusercontent.com/48232101/133231947-0b306663-a25e-45a4-89e6-a708e67f4ac1.gif)
+
 
 <p align='center'>
   <img src='https://img.shields.io/github/repo-size/3ncrypt3db0t/short.me?color=green&style=for-the-badge'>
@@ -135,12 +136,13 @@ http://localhost:6530/
 * Will be updated soon
 
 ## ToDo 
-* Dashboard and detailed link tracking 
-* Bundles 
-* API Generation and Integration
-* Splash and overlay pages 
-* Custom domain branding 
-* Custom brand links
+- [ ] Web Deployment
+- [ ] Dashboard and detailed link tracking 
+- [ ] Bundles 
+- [ ] API Generation and Integration
+- [ ] Splash and overlay pages 
+- [ ] Custom domain branding 
+- [ ] Custom brand links
 
 # LICENSE ⤵️
 >You can check out the full license [here](https://github.com/3ncrypt3db0t/short.me/blob/main/LICENSE)
