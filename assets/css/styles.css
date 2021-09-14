@@ -4,7 +4,7 @@
 /* ROOT */
 :root {
     --font: 'Poppins', sans-serif;
-    --body-bg: linear-gradient(135deg, #7fffd4, #8a2be2);
+    --body-bg: linear-gradient(180deg, #7fffd4, #8a2be2);
 }
 
 /* BASE */
@@ -25,3 +25,82 @@ body {
     padding: 10px;
     background: var(--body-bg);
 }
+
+/* WRAPPER */
+.wrapper {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 800px;
+}
+
+.wrapper form {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+/* FORM */
+form input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 120px 0 45px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 20px;
+    caret-color: #ff4500;
+    transition: all 0.1s ease;
+}
+
+form .url-icon {
+    position: absolute;
+    width: 50px;
+    text-align: center;
+    font-size: 23px;
+    color: #c4c4c4;
+    pointer-events: none;
+}
+
+form input::placeholder {
+    color: #c4c4c4;
+}
+
+form input:focus::placeholder {
+    color: #d9d989;
+}
+
+form button {
+    position: absolute;
+    right: 6px;
+    padding: 5px 15px;
+    border: none;
+    color: #fff;
+    background: #9acd32;
+    font-size: 18px;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+}
+
+form button:hover {
+    background: #32cd32;
+}
+
+form input:valid {
+    border-color: #008b8b;
+}
+
+form input:valid ~ button {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+form input:valid ~ .url-icon {
+    color: #ff8c00;
+}
+
