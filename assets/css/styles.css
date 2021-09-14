@@ -6,7 +6,7 @@
     --font: 'Poppins', sans-serif;
     --body-bg: linear-gradient(180deg, #7fffd4, #8a2be2);
     --popup-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-    --blur-effect: rgba(0, 0, 0, 0.5);
+    --blur-effect: rgba(0, 0, 0, 0.6);
 }
 
 /* BASE */
@@ -216,8 +216,11 @@ form input:valid ~ .url-icon {
     position: absolute;
     height: 100%;
     width: 100%;
+    top: 0;
+    left: 0;
     backdrop-filter: blur(2px);
-    background: var(--blur);
+    background: var(--blur-effect);
+    display: none;
 }
 
 /* POPUP BOX */
@@ -228,6 +231,73 @@ form input:valid ~ .url-icon {
     border-radius: 5px;
     max-width: 480px;
     width: 100%;
+    top: 50%;
+    left: 50%;
     box-shadow: var(--popup-box-shadow);
+    transform: translate(-50%, -50%) scale(0.9);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
 }
 
+/* ToDO -> Add show class in JS */
+.popup-box.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup-box .info-box {
+    color: #0f5753;
+    background: #bef4f1;
+    border: 1px solid #7de8e3;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 17px;
+    text-align: center;
+}
+
+/* TODO -> Add Error Class in JS*/
+.info-box.error {
+    color: #721c24;
+    background: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.popup-box form {
+    position: relative;
+    margin-top: 10px;
+}
+
+.popup-box form label {
+    font-size: 18px;
+}
+
+.popup-box form .copy-icon {
+    position: absolute;
+    right: 10px;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-85%);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+form .copy-icon:hover {
+    color: #9932cc;
+}
+
+.popup-box form input {
+    height: 45px;
+    border: 1px solid #ccc;
+    padding: 0 35px 0 15px;
+    margin-top: 3px;
+}
+
+.popup-box form button {
+    position: relative;
+    right: 0px;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 100%;
+}
