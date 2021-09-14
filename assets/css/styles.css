@@ -4,6 +4,7 @@
 /* ROOT */
 :root {
     --font: 'Poppins', sans-serif;
+    --body-bg: linear-gradient(135deg, #7fffd4, #8a2be2);
 }
 
 /* BASE */
@@ -13,4 +14,14 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: var(--font);
+}
+
+/* BODY */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 10px;
+    background: var(--body-bg);
 }
