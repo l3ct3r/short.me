@@ -19,7 +19,7 @@ This project is simple URL Shortner.
 * Links Counter 
 * Clicks Counter 
 * Checking link duplication
-* Managebality 
+* Manageability 
 * Simple, short and clean URL 
 
 ### Built with 
@@ -137,6 +137,7 @@ http://localhost:6530/
 ## ToDo 
 * Dashboard and detailed link tracking 
 * Bundles 
+* API Generation and Integration
 * Splash and overlay pages 
 * Custom domain branding 
 * Custom brand links
