@@ -132,8 +132,9 @@ http://localhost:6530/
 
 >Editing **httpd.conf** might not work as intended, edit the configuration files at your own risk. 
 
-## 🖼️ Screenshots and Visual Overview 🎥
-* Will be updated soon
+## 🖼️ Visual Overview 🎥
+![lol](https://user-images.githubusercontent.com/48232101/133382126-5288e1d0-742b-4cd9-a449-3769f37245ff.gif)
+
 
 ## ToDo 
 - [ ] Web Deployment
