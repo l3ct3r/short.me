@@ -20,7 +20,7 @@
     <!-- WRAPPER STARTS -->
     <div class="wrapper">
         <form action="#">
-            <input type="text" placeholder="Enter OR paste your long URL" required>
+            <input type="text" name="full-url" placeholder="Enter OR paste your long URL" required>
             <i class="url-icon uil uil-link"></i>
             <button>Shorten</button>
         </form>
