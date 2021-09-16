@@ -14,7 +14,7 @@
 * [Other Configurations](#other-configurations)
 
 ### General Info
-This project is simple URL Shortner.
+This project is simple URL Shortener.
 
 ### Key Features
 * Clicks Counter 
@@ -73,6 +73,16 @@ $~ sudo snap install codium --classic
 ```
 
 ### Other Configurations
+
+#### Project Setup 
+```
+```
+
+#### Server Setup 
+```
+```
+
+
 
 ## ToDo 
 - [x] API Generation and Integration
