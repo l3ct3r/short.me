@@ -95,19 +95,11 @@ $~ npm i --save-dev nodemon
 $~ npm run short.me
 ```
 
+### Visual Overview 
+- Will be Updated soon
 
 
-## ToDo 
-- [x] API Generation and Integration
-- [ ] Web Deployment
-- [ ] Dashboard and detailed link tracking 
-- [ ] Bundles 
-- [ ] Splash and overlay pages 
-- [ ] Custom domain branding 
-- [ ] Custom brand links
-- [ ] Interractive UI/UX
-
-# LICENSE ⤵️
+### LICENSE ⤵️
 >You can check out the full license [here](https://github.com/3ncrypt3db0t/short.me/blob/main/LICENSE)
 
 This project is licensed under the terms of the **MIT** license, feel free to share among others. 😄
