@@ -29,6 +29,7 @@ Project is created with followling tech stacks"
 ![MONGO](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![NPM](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 ![JS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![EXPRESS](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 
 ### Tools 
 Tools used within this project:
@@ -76,6 +77,17 @@ $~ sudo snap install codium --classic
 
 #### Project Setup 
 ```
+$~ npm init
+```
+
+#### Package Setup 
+```
+$~ npm i express mongoose ejs
+```
+
+#### Dev Dependency Setup 
+```
+$~ npm i --save-dev nodemon
 ```
 
 #### Server Setup 
