@@ -4,7 +4,7 @@
   "description": "![short me](https://user-images.githubusercontent.com/48232101/133231947-0b306663-a25e-45a4-89e6-a708e67f4ac1.gif)",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon server.js"
+    "short.me": "nodemon server.js"
   },
   "repository": {
     "type": "git",
