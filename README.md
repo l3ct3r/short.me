@@ -92,6 +92,7 @@ $~ npm i --save-dev nodemon
 
 #### Server Setup 
 ```
+$~ npm run short.me
 ```
 
 
