@@ -43,10 +43,33 @@ Tools used within this project:
 
 #### Installing Node on Arch Linux 
 ```
+1. ********** Officil Packages **********
+$~ sudo pacman -Rsc -n nodejs
+$~ sudo pacman -Sy nodejs
+$~ sudo pacman -Sy npm
+
+2. ********** Alternate Installation **********
+$~ sudo pacman -S nodejs # also installs npm
+
+
+3. ********** Snap **********
+$~ sudo snap install node --classic
 ```
 
 #### VS Codium installation on Linux (Arch based distributions):
 ```
+1. ********** AUR **********  
+$~ git clone https://aur.archlinux.org/vscodium-bin.git
+$~ cd vscodium-bin
+$~ makepkg -si
+
+2. ********** Snap ********** 
+$~ git clone https://aur.archlinux.org/snapd.git
+$~ cd snapd
+$~ makepkg -si
+$~ sudo systemctl enable --now snapd.socket
+$~ sudo ln -s /var/lib/snapd/snap /snap
+$~ sudo snap install codium --classic
 ```
 
 ### Other Configurations
