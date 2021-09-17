@@ -83,7 +83,7 @@ $~ npm init
 
 #### Package Setup 
 ```
-$~ npm i express mongoose ejs
+$~ npm i express mongoose ejs shortid
 ```
 
 #### Dev Dependency Setup 
