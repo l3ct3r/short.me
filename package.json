@@ -4,7 +4,7 @@
   "description": "![short me](https://user-images.githubusercontent.com/48232101/133231947-0b306663-a25e-45a4-89e6-a708e67f4ac1.gif)",
   "main": "index.js",
   "scripts": {
-    "short.me": "nodemon server.js"
+    "shortMe": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,8 @@
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1",
-    "mongoose": "^6.0.6"
+    "mongoose": "^6.0.6",
+    "shortid": "^2.2.16"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
