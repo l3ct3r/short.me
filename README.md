@@ -17,10 +17,10 @@
 This project is simple URL Shortener.
 
 ### Key Features
-* Clicks Counter 
-* Checking link duplication
-* Manageability 
-* Simple, short and clean URL 
+- [x] Clicks Counter 
+- [x] Checking link duplication
+- [x] Manageability 
+- [x] Simple, short and clean URL 
 
 ### Built with 
 Project is created with followling tech stacks"
@@ -93,11 +93,30 @@ $~ npm i --save-dev nodemon
 
 #### Server Setup 
 ```
-$~ npm run short.me
+$~ npm run shortMe
+```
+
+#### MongoDB Setup 
+```
+1. Setting Up MongoDB  
+$~ git clone https://aur.archlinux.org/mongodb-bin.git
+$~ cd mongodb-bin 
+$~ makepkg -si 
+
+2. Setting Up MongoDB Tools
+$~ git clone https://aur.archlinux.org/mongodb-tools-bin.git
+$~ cd mongodb-tools-bin 
+$~ makepkg -si 
+
+3. Starting the MongoDB Service 
+$~ sudo systemctl start mongodb 
+
+4. Check the MongoDB Service 
+$~ sudo systemctl status mongodb
 ```
 
 ### Visual Overview 
-![completed](https://user-images.githubusercontent.com/48232101/133725088-c4f7d676-0761-471c-8ad1-990cc44faca5.gif)
+![URL](https://user-images.githubusercontent.com/48232101/133726021-49c0b962-a795-437e-9f3c-f4d846586a93.gif)
 
 ### LICENSE ⤵️
 >You can check out the full license [here](https://github.com/3ncrypt3db0t/short.me/blob/main/LICENSE)
