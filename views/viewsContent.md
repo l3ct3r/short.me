@@ -6,5 +6,5 @@ views :
 - index.ejs
 
 icons: 
-- URL Link
+- URL
 ```
