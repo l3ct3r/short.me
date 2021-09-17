@@ -97,8 +97,7 @@ $~ npm run short.me
 ```
 
 ### Visual Overview 
-- Will be Updated soon
-
+![completed](https://user-images.githubusercontent.com/48232101/133725088-c4f7d676-0761-471c-8ad1-990cc44faca5.gif)
 
 ### LICENSE ⤵️
 >You can check out the full license [here](https://github.com/3ncrypt3db0t/short.me/blob/main/LICENSE)
