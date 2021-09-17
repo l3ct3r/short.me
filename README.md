@@ -17,10 +17,10 @@
 This project is simple URL Shortener.
 
 ### Key Features
-* Clicks Counter 
-* Checking link duplication
-* Manageability 
-* Simple, short and clean URL 
+- [x] Clicks Counter 
+- [x] Checking link duplication
+- [x] Manageability 
+- [x] Simple, short and clean URL 
 
 ### Built with 
 Project is created with followling tech stacks"
