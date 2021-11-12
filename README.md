@@ -119,6 +119,6 @@ $~ sudo systemctl status mongodb
 ![URL](https://user-images.githubusercontent.com/48232101/133726021-49c0b962-a795-437e-9f3c-f4d846586a93.gif)
 
 ### LICENSE ⤵️
->You can check out the full license [here](https://github.com/r00k13m0nst3r/short.me/blob/main/LICENSE)
+>You can check out the full license [here](https://github.com/l3ct3r/short.me/blob/main/LICENSE)
 
 This project is licensed under the terms of the **MIT** license, feel free to share among others. 😄
